@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  <remote name="ontherunvaro" fetch="https://github.com/ontherunvaro/" revision="cm-14.1"/>
+  <remote name="RobBrownNZ" fetch="https://github.com/RobBrownNZ/" revision="n7x-caf" />
+  <remote name="RobBrownNZ-cm" fetch="https://github.com/RobBrownNZ/" revision="cm-14.1" />
+  <remote name="davidevinavil" fetch="https://github.com/davidevinavil" revision="n7x-caf" />
+  <remote name="codeaurora" fetch="https://source.codeaurora.org/quic/la/platform/packages/apps" revision="camera.lnx.1.0-rel.1.0" />
+<!--  <remote name="codeaurora2" fetch="https://source.codeaurora.org/quic/la/platform/frameworks/opt/net" revision="aosp-new/master" />  -->
+
+  <project path="device/zuk/z2_plus" name="android_device_zuk_z2_plus" remote="RobBrownNZ-cm"/>
+  <project path="vendor/zuk/z2_plus" name="proprietary_vendor_zuk_z2_plus" remote="ontherunvaro"/>
+  <project path="kernel/zuk/msm8996" name="android_kernel_zuk_z2_plus" remote="RobBrownNZ"/>
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github"/>
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
+  <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github"/> 
+  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="github"/>
+  <project path="packages/apps/SnapdragonCamera" name="SnapdragonCamera" remote="codeaurora" />
+<!--  <project path="frameworks/opt/net/ims" name="ims" remote="codeaurora2" /> -->
+</manifest>
